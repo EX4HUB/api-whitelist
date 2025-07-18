@@ -15,9 +15,7 @@ $hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 $fh = fopen('logs.txt', 'a'); 
 fwrite($fh, ''."".$ip ."\n");
 $keys = array(
-"Key",
-
-"key1"
+"jkdoif-874200-2550"
 ); 
 $sub = $_GET["key"];
 if (in_array($sub,$keys,TRUE)) {
